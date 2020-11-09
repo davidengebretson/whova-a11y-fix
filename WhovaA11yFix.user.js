@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Whova Accessibility Fix
 // @namespace    https://github.com/terrill/whova-a11y-fix
-// @version      1.1
+// @version      1.2
 // @homepage     https://terrillthompson.com
 // @updateURL    https://raw.githubusercontent.com/terrill/whova-a11y-fix/main/user.js
 // @downloadURL  https://raw.githubusercontent.com/terrill/whova-a11y-fix/main/user.js
@@ -126,6 +126,9 @@ function fixTitle(thisPage) {
   }
   else if (thisPage == 'VideoGallery') {
     newTitle = 'Video Gallery | ' + currentTitle;
+  }
+  else if (thisPage == 'Agenda') {
+    newTitle = 'Agenda | ' + currentTitle;
   }
   else {
     newTitle = thisPage + ' | ' + currentTitle;
