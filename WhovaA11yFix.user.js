@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Whova Accessibility Fix
-// @namespace    https://github.com/terrill/whova-a11y-fix
-// @version      1.4
-// @updateURL    https://raw.githubusercontent.com/terrill/whova-a11y-fix/main/user.js
-// @downloadURL  https://raw.githubusercontent.com/terrill/whova-a11y-fix/main/user.js
-// @description  Fixes accessibility issues in Whova's web app
+// @name         Davids attempt at adjusting Terrills Whova Accessibility Fix
+// @namespace    https://github.com/davidengebretson/whova-a11y-fix
+// @version      1.4.1
+// @updateURL    https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/test/user.js
+// @downloadURL  https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/test/user.js
+// @description  Hopefully Fixes accessibility issues in Whova's web app
 // @author       Terrill Thompson <tft@uw.edu>
 // @match        https://whova.com/portal/webapp/*
 // ==/UserScript==
