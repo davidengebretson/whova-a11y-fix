@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name         Whova Accessibility Fix
-// @namespace    https://github.com/terrill/whova-a11y-fix
-// @version      1.7
-// @updateURL    https://raw.githubusercontent.com/terrill/whova-a11y-fix/main/user.js
-// @downloadURL  https://raw.githubusercontent.com/terrill/whova-a11y-fix/main/user.js
-// @description  Fixes accessibility issues in Whova's web app
+// @name         Davids attempt at editing the Whova Accessibility Fix
+// @namespace    https://github.com/davidengebretson/whova-a11y-fix
+// @version      1.7.1
+// @updateURL    https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/main/user.js
+// @downloadURL  https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/main/user.js
+// @description  Hopefully Fixes accessibility issues in Whova's web app
 // @author       Terrill Thompson <tft@uw.edu>
 // @match        https://whova.com/portal/webapp/*
 // ==/UserScript==
 
 // Global vars
 var a11ySearching = false; // will change to true temporarily when a user types in a search field
-var a11yDebug = false; // set to true to write messages to the console; otherwise false
+var a11yDebug = true; // set to true to write messages to the console; otherwise false
 var a11yFixingPage = false; // stop gap to prevent script from handling mutations that result from a11y fixes
 
 (function() {
