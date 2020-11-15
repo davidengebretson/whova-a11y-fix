@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Davids attempt at editing the Whova Accessibility Fix
 // @namespace    https://github.com/davidengebretson/whova-a11y-fix
-// @version      1.7.1
+// @version      1.7.2
 // @updateURL    https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/test/user.js
 // @downloadURL  https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/test/user.js
 // @description  Hopefully Fixes accessibility issues in Whova's web app
@@ -57,7 +57,7 @@ function init() {
       return;
     }
     if (a11yDebug) {
-      console.log('New mutations observed: ' + mutations.length) >> “c:/users/engebrd2/documents/github/whova/WhovaConsoleOutput.txt”;
+      console.log('New mutations observed: ' + mutations.length >> “c:/users/engebrd2/documents/github/whova/WhovaConsoleOutput.txt”);
     }
     thisPage = getPage();
     if (thisPage !== prevPage) {
