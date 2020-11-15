@@ -2,8 +2,8 @@
 // @name         Davids attempt at editing the Whova Accessibility Fix
 // @namespace    https://github.com/davidengebretson/whova-a11y-fix
 // @version      1.7.1
-// @updateURL    https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/main/user.js
-// @downloadURL  https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/main/user.js
+// @updateURL    https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/test/user.js
+// @downloadURL  https://raw.githubusercontent.com/davidengebretson/whova-a11y-fix/test/user.js
 // @description  Hopefully Fixes accessibility issues in Whova's web app
 // @author       Terrill Thompson <tft@uw.edu>
 // @match        https://whova.com/portal/webapp/*
