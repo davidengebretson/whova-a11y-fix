@@ -57,7 +57,7 @@ function init() {
       return;
     }
     if (a11yDebug) {
-      console.log('New mutations observed: ' + mutations.length);
+      console.log('New mutations observed: ' + mutations.length)>>“WhovaConsoleOutput.txt”;
     }
     thisPage = getPage();
     if (thisPage !== prevPage) {
