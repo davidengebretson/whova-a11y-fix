@@ -57,7 +57,7 @@ function init() {
       return;
     }
     if (a11yDebug) {
-      console.log('New mutations observed: ' + mutations.length)>>“WhovaConsoleOutput.txt”;
+      console.log('New mutations observed: ' + mutations.length) >> “c:/users/engebrd2/documents/github/whova/WhovaConsoleOutput.txt”;
     }
     thisPage = getPage();
     if (thisPage !== prevPage) {
@@ -975,3 +975,4 @@ function showSearchCount(thisPage) {
   }
 }
 
+  
